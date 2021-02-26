@@ -13,3 +13,4 @@ import java.util.List;
 public class ForecastResponse {
     private List<Double> response;
 }
+ 

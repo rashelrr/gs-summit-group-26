@@ -1,5 +1,5 @@
 package com.investing.forecastbackend.service;
-
+ 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.investing.forecastbackend.model.ForecastRequest;

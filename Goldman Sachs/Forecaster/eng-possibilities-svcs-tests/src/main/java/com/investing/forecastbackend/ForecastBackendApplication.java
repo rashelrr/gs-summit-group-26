@@ -10,4 +10,4 @@ public class ForecastBackendApplication {
 		SpringApplication.run(ForecastBackendApplication.class, args);
 	}
 
-}
+} 

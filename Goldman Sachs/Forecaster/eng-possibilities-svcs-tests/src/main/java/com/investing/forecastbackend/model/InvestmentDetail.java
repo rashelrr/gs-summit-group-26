@@ -15,3 +15,4 @@ public class InvestmentDetail {
     private List<String> data;
 }
 
+ 

@@ -37,7 +37,7 @@ public class InvestingForecastController {
         log.info("Received request to retrieve investment options");
         return ResponseEntity.ok(service.getInvestmentOptions());
     }
-
+ 
     @PostMapping
     @SneakyThrows
     public ResponseEntity<ForecastResponse> getInvestmentOptions(@RequestBody final ForecastRequest request) throws IOException {

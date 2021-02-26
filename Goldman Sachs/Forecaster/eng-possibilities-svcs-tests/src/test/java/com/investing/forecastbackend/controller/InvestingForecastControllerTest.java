@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
         InvestingForecastController.class,
         InvestingForecastService.class})
 class InvestingForecastControllerTest {
-
+ 
     @Autowired
     MockMvc mvc;
 

@@ -14,3 +14,4 @@ public class ForecastRequest {
     private Map<String, Double> request;
 
 }
+ 
