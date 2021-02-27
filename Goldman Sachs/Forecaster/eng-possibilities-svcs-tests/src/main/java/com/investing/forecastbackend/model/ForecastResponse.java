@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
-
+ 
 // TODO Model for the response for investment forecast
 @Data
 @Getter
