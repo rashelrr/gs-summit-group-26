@@ -13,5 +13,11 @@ import java.util.Map;
 public class ForecastRequest {
     private Map<String, Double> request;
 
+    public Map<String, Double> getRequest(){
+        return this.request;
+    }
+    public void setRequest(Map<String, Double> request){
+        request = this.request;
+    }
 }
  
