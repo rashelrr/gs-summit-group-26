@@ -12,5 +12,13 @@ import java.util.List;
 @Setter
 public class ForecastResponse {
     private List<Double> response;
+    
+    public List<Double> getResponse() {
+    	return this.response;
+    }
+    
+    public void setResponse(List<Double> response) {
+    	this.response = response;
+    }
 }
  
