@@ -2,14 +2,14 @@ import React from "react";
 import {Container} from "react-bootstrap";
 import {Line} from 'react-chartjs-2';
 
+const currYear = new Date().getFullYear();
 const state = {
-  // TODO import years
-  labels: ['2021', '2022', '2023',
-           '2024', '2025','2026','2027',
-           '2028','2029', '2030'],
+  labels: [currYear, currYear+1, currYear+2,
+          currYear+3, currYear+4,currYear+5,currYear+6,
+          currYear+7,currYear+8, currYear+9],
   datasets: [
     {
-      label: 'Projection',
+      label: 'Value',
       fill: false,
       lineTension: 0.5,
       backgroundColor: 'rgba(250,0,0,1)',
