@@ -11,6 +11,7 @@ import java.util.Map;
 @Getter
 @Setter
 public class ForecastRequest {
+    // string = category, double = percentages
     private Map<String, Double> request;
 
     public Map<String, Double> getRequest() {
