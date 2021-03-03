@@ -53,7 +53,7 @@ export default class App extends React.Component {
             },
             legend:{
               display:false,
-            } 
+            }
           }}
         />
       </div>
