@@ -20,7 +20,7 @@ const state = {
       borderColor: 'rgba(250,0,0,1)',
       borderWidth: 2,
       // TODO import data (these are just dummy values)
-      data: [10, 35, 30, 53, 60, 54, 50, 65, 80, 83]
+      data: [10000, 35000, 30109, 53786, 68712, 54793, 52688, 65991, 80302, 83447]
     }
   ]
 }
@@ -32,6 +32,20 @@ export default class App extends React.Component {
         <Line
           data={state}
           options={{
+            scales: {
+              yAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Value ($)'
+                }
+              }],
+              xAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Years'
+                }
+              }]
+            },
             title:{
               display:true,
               text:'Investment Forecast Over 10 Years',
@@ -39,8 +53,7 @@ export default class App extends React.Component {
             },
             legend:{
               display:false,
-            }
-            
+            } 
           }}
         />
       </div>
